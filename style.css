@@ -19,7 +19,6 @@ font-family: 'Kanit', sans-serif;
     font-style: italic;
     font-weight: 600;
     font-size: 23px;
-    margin-top: 3px;
 
 }
 .logo .axo{
@@ -39,6 +38,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 10%;/*need to check this line*/
+    padding: 20px 5%;/*need to check this line*/
     
+}
+.navbar{
+    display: flex;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s;
 }
