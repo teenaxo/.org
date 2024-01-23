@@ -15,14 +15,30 @@ font-family: 'Kanit', sans-serif;
 
 .heading .logo{
     text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif, 'italic';
     font-style: italic;
     font-weight: 600;
     font-size: 23px;
     margin-top: 3px;
 
 }
+.logo .axo{
+    font-family: 'Kanit', sans-serif;
+}
 .heading a{
     text-decoration: none;
     color: black;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;/*need to check this line*/
+    
 }
