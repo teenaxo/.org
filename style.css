@@ -34,6 +34,7 @@ font-family: 'Kanit', sans-serif;
 }
 header{
     position: fixed;
+    background-color: white;
     width: 100%;
     top: 0;
     right: 0;
@@ -79,12 +80,11 @@ header{
 
 
 section{
-    padding: 5% 10%;
+    padding: 5% 2.75%;
 }
 .main-home{
     width: 100%;
     height: 100vh;
-    background-image: url(images/keychain.jpeg);
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,7 +111,130 @@ section{
 }
 .mainText p{
     font-style: italic;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 300;
+
+}
+.main-btn{
+    display: inline-block;
+    color: black;
     font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid black;
+    transition: all .42s;
+    padding: 12px 25px;
+}
+.main-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.main-btn i{
+    vertical-align: center;
+}
+
+.slider-frame{
+    overflow: hidden;
+    height: 600px;
+    width: 1200px;
+
+    margin-top: 20px;
+}
+
+@keyframes slide_animation{
+    0% {left: -1200px;}
+    10% {left: -1200px;}
+    20% {left: 0px;}
+    40% {left: 1200px;}
+    50% {left: 2400px;}
+    60% {left: 2400px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: -1200px;}
+    100% {left: -1200px}
+    
+
+}
+
+
+
+@-webkit-keyframes slide_animation{
+    0% {left: -1200px;}
+    10% {left: 0px;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: -1200px;}
+    100% {left: 0px;}
+}
+
+.slide-images{
+    width: 4800px;
+    height: 600px;
+    margin: 0 0 -2400px -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.img-container4{
+    height: 450px;
+    width: 1200px;
+    position: relative;
+    float: left;
+    background-image: url('images/image1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
 }
 
+.img-container1{
+    height: 450px;
+    width: 1200px;
+    position: relative;
+    float: left;
+    background-image: url('images/image2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.img-container2{
+    height: 450px;
+    width: 1200px;
+    position: relative;
+    float: left;
+    background-image: url('images/image3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-container3{
+    height: 450px;
+    width: 1200px;
+    position: relative;
+    float: left;
+    background-image: url('images/image4.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;  
+}
+
+  
