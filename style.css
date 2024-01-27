@@ -14,6 +14,10 @@ font-family: 'Kanit', sans-serif;
     box-sizing: border-box;
 }
 
+body{
+    background-color: whitesmoke;
+}
+
 .heading .logo{
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif, 'italic';
@@ -109,7 +113,7 @@ section{
     font-weight: bold;
     font-family: 'Josefin Sans', 'sans-serif';
 }
-.mainText p{
+.mainText .slide-images p{
     font-style: italic;
     font-size: 20px;
     font-family: 'Bebas Neue', sans-serif;
@@ -134,6 +138,13 @@ section{
 .main-btn i{
     vertical-align: center;
 }
+
+
+
+
+/*Slideshow*/
+
+
 
 .slider-frame{
     overflow: hidden;
@@ -192,7 +203,7 @@ section{
 }
 
 .img-container4{
-    height: 450px;
+    height: 500px;
     width: 1200px;
     position: relative;
     float: left;
@@ -204,19 +215,34 @@ section{
 }
 
 .img-container1{
-    height: 450px;
+    height: 500px;
     width: 1200px;
     position: relative;
     float: left;
-    background-image: url('images/image2.png');
+    background-image: url('images/img_keychain\(1\).png');
+    background-color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
 }
+.slide-images h5{
+    margin-left: 2%;
+}
+
+.slide-images h1{
+    margin-left: 2%;
+}
+
+.slide-images p{
+    margin-left: 2%;
+}
+.slide-images .main-btn{
+    margin-left: 2%;
+}
 
 .img-container2{
-    height: 450px;
+    height: 500px;
     width: 1200px;
     position: relative;
     float: left;
@@ -227,7 +253,7 @@ section{
 }
 
 .img-container3{
-    height: 450px;
+    height: 500px;
     width: 1200px;
     position: relative;
     float: left;
@@ -237,4 +263,61 @@ section{
     background-position: center;  
 }
 
-  
+
+
+
+
+
+
+/*Products*/
+
+
+.categories .row1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.categories h2{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+}
+.cate1{
+    background-color: white;
+    width: 230px;
+    height: 280px;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: 2px 5px 8px #888888;
+}
+
+
+
+
+
+
+
+/*Reviews*/
+
+
+.person1{
+    background-color: gainsboro;
+}
+.reviews_slideshow {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.reviews_slideshow h2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    
+}
+._slideshow .comments{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    animation: slideshow 9s;
+}
+
+
