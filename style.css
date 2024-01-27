@@ -207,7 +207,7 @@ section{
     width: 1200px;
     position: relative;
     float: left;
-    background-image: url('images/image1.png');
+    background-image: url('image1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -219,7 +219,7 @@ section{
     width: 1200px;
     position: relative;
     float: left;
-    background-image: url('images/img_keychain\(1\).png');
+    background-image: url('img_keychain\(1\).png');
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -246,7 +246,7 @@ section{
     width: 1200px;
     position: relative;
     float: left;
-    background-image: url('images/image3.png');
+    background-image: url('image3.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -257,7 +257,7 @@ section{
     width: 1200px;
     position: relative;
     float: left;
-    background-image: url('images/image4.png');
+    background-image: url('image4.png');
     background-repeat: no-repeat;
     background-size: cover;  
     background-position: center;  
